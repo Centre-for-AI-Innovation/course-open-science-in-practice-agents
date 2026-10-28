@@ -1,10 +1,14 @@
 [project]
 site_name = "Open Science in Practice: Responsible use of agentic AI in research"
 site_description = "Course docs for K8F6133 (KI, spring 2027)"
+repo_url = "https://github.com/Centre-for-AI-Innovation/course-open-science-in-practice-agents"
+edit_uri = "edit/main/docs/"
+site_url = "https://Centre-for-AI-Innovation.github.io/course-open-science-in-practice-agents"
 docs_dir = "docs"
 nav = [
   { "Home" = "index.md" },
   { "Schedule" = "schedule.md" },
+  {"Content" = "content/index.md"}
 ]
 watch = ["docs/schedule.csv"]
 
@@ -21,6 +25,8 @@ features = [
   "toc.integrate",
   "content.code.copy",
   "content.code.annotate",
+  "content.action.edit",
+  "content.action.view",
   "search.suggest",
   "search.highlight",
   "search.share",
