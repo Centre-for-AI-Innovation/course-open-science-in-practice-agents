@@ -1,7 +1,7 @@
 [project]
 site_name = "Open Science in Practice: Responsible use of agentic AI in research"
 site_description = "Course docs for K8F6133 (KI, spring 2027)"
-site_url = "https://Centre-for-AI-Innovation.githubu.io/course-open-science-in-practice-agents"
+site_url = "https://Centre-for-AI-Innovation.github.io/course-open-science-in-practice-agents"
 docs_dir = "docs"
 nav = [
   { "Home" = "index.md" },
